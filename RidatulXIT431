@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Toko</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f5f2;
+        }
+        .header {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 10px;
+            background-color: #5a3e2b;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .nav a:nth-child(1) { background-color: #8B4513; }
+        .nav a:nth-child(2) { background-color: #A0522D; }
+        .nav a:nth-child(3) { background-color: #CD853F; }
+        .nav a:nth-child(4) { background-color: #DEB887; }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+        }
+        .product {
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+        .product:hover {
+            transform: scale(1.1);
+        }
+        .footer {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Nama Toko</div>
+    <div class="nav">
+        <a href="#">Beranda</a>
+        <a href="#">Produk</a>
+        <a href="#">Tentang Kami</a>
+        <a href="#">Kontak</a>
+    </div>
+    <div class="container">
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Produk">
+            <h3>Produk</h3>
+            <p>Harga</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Produk">
+            <h3>Produk</h3>
+            <p>Harga</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Produk">
+            <h3>Produk</h3>
+            <p>Harga</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Produk">
+            <h3>Produk</h3>
+            <p>Harga</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Produk">
+            <h3>Produk</h3>
+            <p>Harga</p>
+        </div>
+        <div class="product">
+            <img src="https://via.placeholder.com/250" alt="Produk">
+            <h3>Produk</h3>
+            <p>Harga</p>
+        </div>
+    </div>
+    <div class="footer">Terima Kasih Sudah Berbelanja</div>
+</body>
+</html>
